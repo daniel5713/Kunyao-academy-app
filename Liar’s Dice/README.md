@@ -44,7 +44,7 @@ cd zkgaming_dicebox && leo build
 
 - Run web server
 
-## zkgaming-ui
+## UI design
 We use vue to design UI for liar's dice
 
 ### [Install rust](https://rustup.rs/)
