@@ -45,7 +45,7 @@ cd zkgaming_dicebox && leo build
 - Run web server
 
 ## zkgaming-ui
-liar's dice built on vue
+We use vue to design UI for liar's dice
 
 ### [Install rust](https://rustup.rs/)
 ``` bash
