@@ -79,7 +79,7 @@ cargo add wasm-pack
 ### [Install node](https://nodejs.org/en)
 ``` bash
 node -v
-corepack enable
+v16.13.0
 ```
 
 ### Build wasm
