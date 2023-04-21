@@ -7,3 +7,6 @@
 [submodule "Liar’s Dice/zkgaming-ui"]
 	path = Liar’s Dice/zkgaming-ui
 	url = git@github.com:lqsbznh/zkgaming-ui.git
+[submodule "Blackjack/zk-casino-server"]
+	path = Blackjack/zk-casino-server
+	url = https://github.com/TrapedCircuit/zk-casino-server

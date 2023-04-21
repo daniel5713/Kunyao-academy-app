@@ -5,10 +5,11 @@
   - rep: https://github.com/ghostant-1017/snarkOS/tree/hack-deploy
 - leo
   - rep: https://github.com/AleoHQ/leo/commit/f30080f6478cbbfa7ea78d58baee0e76061e45ae
+- casino
+  - rep: https://github.com/TrapedCircuit/zk-casino-server
 
 
-
-### Setup 
+### Setup
 
 - Setup a local chain used our snarkOS version.
 
@@ -19,7 +20,7 @@ git clone git@github.com:ghostant-1017/snarkOS.git && cd snarkOS
 # Checkout the branch and build snarkos
 git checkout hack-deploy && cargo build --release
 
-# Run a beacon node 
+# Run a beacon node
 ./target/release/snarkos start --beacon "" --nodisplay --dev 0
 ```
 
@@ -30,7 +31,7 @@ git checkout hack-deploy && cargo build --release
 cd zkgaming_blackjack && leo build
 
 # You have to deploy `imports` program first
-# In order to deploy zkgaming_blackjack, you have to deploy 
+# In order to deploy zkgaming_blackjack, you have to deploy
 # `random.aleo`, `start_request.aleo`, `hit_request.aleo`, `stand_request.aleo`
 
 # Deploy `random.aleo`
@@ -49,3 +50,13 @@ cd snarkos && ./target/release/snarkos developer deploy --record "{  owner: aleo
 ```
 
 - Run casino server (It will automaticly process request from player)
+
+```sh
+# 1.build from source
+git clone https://github.com/TrapedCircuit/zk-casino-server
+cd casino-server
+cargo build --release
+
+# just run it
+./target/release/casino-server --pk 'your_private_key' --start-at 'block start height'
+```
