@@ -30,6 +30,11 @@ git checkout hack-deploy && cargo build --release
 cd zkgaming_blackjack && leo build
 
 # You have to deploy `imports` program first
+# In order to deploy zkgaming_blackjack, you have to deploy 
+# `random.aleo`, `start_request.aleo`, `hit_request.aleo`, `stand_request.aleo`
+
+
+
 # Deploy ( In the snarkOS root)
 # --path: the path of zkgaming_blackjack
 # --record: scan record and copy one
@@ -39,4 +44,4 @@ cd zkgaming_blackjack && leo build
 ./target/release/snarkos developer scan --endpoint "http://127.0.0.1:3030" --private-key APrivateKey1zkp8CZNn3yeCseEtxuVPbDCwSyhGW6yZKUYKfgXmcpoGPWH --last 100
 ```
 
-- Run casino server (Automaticly process request from player)
+- Run casino server (It will automaticly process request from player)
