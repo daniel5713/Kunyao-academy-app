@@ -33,15 +33,19 @@ cd zkgaming_blackjack && leo build
 # In order to deploy zkgaming_blackjack, you have to deploy 
 # `random.aleo`, `start_request.aleo`, `hit_request.aleo`, `stand_request.aleo`
 
+# Deploy `random.aleo`
+cd deps/random && leo build
+# In the path of snarkos
+cd snarkos && ./target/release/snarkos developer deploy --record "{  owner: aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px.public,  gates: 0u64.public,  nonce: 1241243546u64.private,  id: 1546456u64.public,  signer: aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px.public,  _nonce: 3450485102565810033383928822174690152602695567158297778507599982864522135816group.public}" --query "http://127.0.0.1:3030" --private-key APrivateKey1zkp8CZNn3yeCseEtxuVPbDCwSyhGW6yZKUYKfgXmcpoGPWH --path ../random/build/ --broadcast "http://127.0.0.1:3030/testnet3/transaction/broadcast" --fee 100000000 random.aleo
 
+# Deploy `start_request.aleo`, `hit_request.aleo`, `stand_request.aleo` as above
 
-# Deploy ( In the snarkOS root)
+# Finally deploy `zkgaming_blackjack.aleo`
 # --path: the path of zkgaming_blackjack
 # --record: scan record and copy one
 ./target/release/snarkos developer deploy --record "{  owner: aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px.public,  gates: 0u64.public,  nonce: 1241243546u64.private,  id: 1546456u64.public,  signer: aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px.public,  _nonce: 3450485102565810033383928822174690152602695567158297778507599982864522135816group.public}" --query "http://127.0.0.1:3030" --private-key APrivateKey1zkp8CZNn3yeCseEtxuVPbDCwSyhGW6yZKUYKfgXmcpoGPWH --path ../zkgaming_blackjack/build/ --broadcast "http://127.0.0.1:3030/testnet3/transaction/broadcast" --fee 100000000 zkgaming_blackjack.aleo
 
-# Scan record
-./target/release/snarkos developer scan --endpoint "http://127.0.0.1:3030" --private-key APrivateKey1zkp8CZNn3yeCseEtxuVPbDCwSyhGW6yZKUYKfgXmcpoGPWH --last 100
+
 ```
 
 - Run casino server (It will automaticly process request from player)
