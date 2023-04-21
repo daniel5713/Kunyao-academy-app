@@ -68,7 +68,7 @@ cd aleo/wasm
 wasm-pack build --target web
 ```
 
-### Installing Dependencies
+### Install Dependencies
 ```bash
 cd ../sdk && npm i
 ```
