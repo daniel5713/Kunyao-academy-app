@@ -16,8 +16,8 @@
 
 
 
-Please go to Blackjack and Liar's Dice for the specifications.
+Please go to [Blackjack](https://github.com/daniel5713/Kunyao-academy-app/tree/main/Blackjack) and Liar's Dice for the specifications.
 
 # Description of implementation
-Please go to Blackjack and Liar's Dice for details.
+Please go to [Blackjack](https://github.com/daniel5713/Kunyao-academy-app/tree/main/Blackjack) and Liar's Dice for details.
 
