@@ -54,7 +54,7 @@ cd snarkos && ./target/release/snarkos developer deploy --record "{  owner: aleo
 ```sh
 # 1.build from source
 git clone https://github.com/TrapedCircuit/zk-casino-server
-cd casino-server
+cd ./zk-casino-server/casino-server
 cargo build --release
 
 # just run it
