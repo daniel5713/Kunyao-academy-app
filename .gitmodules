@@ -1,0 +1,3 @@
+[submodule "Blackjack/zkgaming_blackjack"]
+	path = Blackjack/zkgaming_blackjack
+	url = git@github.com:ghostant-1017/zkgaming_blackjack.git
