@@ -1,5 +1,5 @@
-#Blackjack
-##Introducation
-what do we have in this folder
-##Implementation
-how to execute this project
+# Build and Run Guide
+  * Step 1
+  * Step 2
+  
+
