@@ -1,0 +1,10 @@
+{
+    "program": "hit_request.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpG5q6ycmBE5tSB8YMHgrN1TuGRusbRRyRRMTwSniXTiuq",
+        "address": "aleo1epqsm6g9ajdmux4mjg582qm570q9jpswfs7v4ccaf8wjuqc62cxq76v7nh"
+    },
+    "license": "MIT"
+}

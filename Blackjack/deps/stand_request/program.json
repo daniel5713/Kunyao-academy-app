@@ -1,0 +1,10 @@
+{
+    "program": "stand_request.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpDgyTJb1xhPqajyhTg5Kx8vofEc2sd75QaC1eBY2wud1Q",
+        "address": "aleo14vhnzlxcaxqql0aly6ks3dsp8a7h4thdtm7hh3gac40htpzsvupqdmrjmd"
+    },
+    "license": "MIT"
+}
