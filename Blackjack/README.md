@@ -49,7 +49,7 @@ cd snarkos && ./target/release/snarkos developer deploy --record "{  owner: aleo
 
 ```
 
-- Run casino server (It will automaticly process request from player)
+- Run casino server (this helps the player to read/write the blockchain)
 
 ```sh
 # 1.build from source
