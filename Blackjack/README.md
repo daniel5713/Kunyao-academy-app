@@ -93,6 +93,9 @@ wasm-pack build --target web
 ```bash
 cd ../sdk && npm i
 ```
+### Change local node's address
+Please be aware that you need to use your local node's address to replace the address in this [line](https://github.com/abu0306/blackjack-ui/blob/master/src/App.jsx#L31).
+
 
 # Implementation
 
