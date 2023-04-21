@@ -73,11 +73,15 @@ wasm-pack build --target web
 cd ../sdk && npm i
 ```
 
+# Implementation
+
 ### Run project
 ```bash
 cd ../../zkgaming-ui/ && npm i && npm run dev
 ```
 
-### Description
+```bash
 `./zkgaming-ui/src/page/.vue`
-The game will start from 0 height, if you need to start a new game, you can change currentHeight to the latest height.
+```
+### [Demonstration](https://drive.google.com/file/d/1kZQ3qKXs7Bz65y2nLyYoLAkwnFxY6dlF/view?usp=share_link)
+
