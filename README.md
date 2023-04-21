@@ -9,6 +9,7 @@
   * 1.3 zk-casino-server: (the server automaticly process request from player)
     * 1.3.1 aleo: (the aleo official sdk)
     * 1.3.2 casino-server: (the bianary casino server)
+  * 1.4 blackjack-ui(the web ui for blackjack)
 * 2 Liar's Dice: (we made this folder to deliver Liar's Dice, please check [here](https://en.wikipedia.org/wiki/Liar%27s_dice) to learn how to play Liar's Dice)
   * 2.1 zkgaming_dice: (the main program of Liar's Dice to interact with players)
   * 2.2 zkgaming-ui: (the web ui for Liar's Dice)

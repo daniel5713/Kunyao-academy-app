@@ -10,3 +10,6 @@
 [submodule "Blackjack/zk-casino-server"]
 	path = Blackjack/zk-casino-server
 	url = git@github.com:TrapedCircuit/zk-casino-server
+[submodule "Blackjack/blackjack-ui"]
+	path = Blackjack/blackjack-ui
+	url = git@github.com:abu0306/blackjack-ui.git

@@ -60,3 +60,46 @@ cargo build --release
 # just run it
 ./target/release/casino-server --pk 'your_private_key' --start-at 'block start height'
 ```
+
+- Run web server
+
+## UI design
+We use vue to design UI for liar's dice
+
+### [Install rust](https://rustup.rs/)
+``` bash
+rustup -V
+cargo -V
+cargo add wasm-pack
+```
+
+### [Install node](https://nodejs.org/en)
+``` bash
+node -v
+corepack enable
+```
+
+### Build wasm
+``` bash
+git clone git@github.com:abu0306/blackjack-ui.git
+cd blackjack-ui/aleo/wasm
+wasm-pack build --target web
+```
+
+### Install Dependencies
+```bash
+cd ../sdk && npm i
+```
+
+# Implementation
+
+### Run project
+```bash
+cd ../../blackjack-ui/ && npm i && npm run dev
+```
+
+```bash
+`./blackjack-ui/src/page/*.jsx`
+```
+### [Demonstration]()
+
