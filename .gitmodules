@@ -1,6 +1,7 @@
 [submodule "Blackjack/zkgaming_blackjack"]
 	path = Blackjack/zkgaming_blackjack
 	url = git@github.com:ghostant-1017/zkgaming_blackjack.git
+	rev = "1713301e91a34ffc33f0968574556cceb922f32c"
 [submodule "Liar’s Dice/zkgaming_dice"]
 	path = Liar’s Dice/zkgaming_dice
 	url = git@github.com:ghostant-1017/zkgaming_dice.git
