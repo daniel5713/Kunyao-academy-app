@@ -57,6 +57,9 @@ git clone https://github.com/TrapedCircuit/zk-casino-server
 cd ./zk-casino-server/casino-server
 cargo build --release
 
-# just run it
+# 2. run it.
+# --pk: your private key
+# --start-at: the block height you want to start at
+# --dest: if dest is not set, the base url will be 'http://localhost:3030/testnet3'.
 ./target/release/casino-server --pk 'your_private_key' --start-at 'block start height'
 ```
