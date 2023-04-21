@@ -11,7 +11,7 @@
 
 ### Setup
 
-- Setup a local chain used our snarkOS version.
+- Use our snarkOS version to build a local chain.
 
 ```shell
 # Clone the repo
@@ -24,7 +24,7 @@ git checkout hack-deploy && cargo build --release
 ./target/release/snarkos start --beacon "" --nodisplay --dev 0
 ```
 
-- Build and Deploy the program used the specific leo version
+- Build and Deploy the program based on the specific leo version
 
 ```shell
 # Build
@@ -41,7 +41,7 @@ cd snarkos && ./target/release/snarkos developer deploy --record "{  owner: aleo
 
 # Deploy `start_request.aleo`, `hit_request.aleo`, `stand_request.aleo` as above
 
-# Finally deploy `zkgaming_blackjack.aleo`
+# Finally, deploy `zkgaming_blackjack.aleo`
 # --path: the path of zkgaming_blackjack
 # --record: scan record and copy one
 ./target/release/snarkos developer deploy --record "{  owner: aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px.public,  gates: 0u64.public,  nonce: 1241243546u64.private,  id: 1546456u64.public,  signer: aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px.public,  _nonce: 3450485102565810033383928822174690152602695567158297778507599982864522135816group.public}" --query "http://127.0.0.1:3030" --private-key APrivateKey1zkp8CZNn3yeCseEtxuVPbDCwSyhGW6yZKUYKfgXmcpoGPWH --path ../zkgaming_blackjack/build/ --broadcast "http://127.0.0.1:3030/testnet3/transaction/broadcast" --fee 100000000 zkgaming_blackjack.aleo
