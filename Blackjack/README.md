@@ -107,5 +107,5 @@ cd ../../blackjack-ui/ && npm i && npm run dev
 ```bash
 `./blackjack-ui/src/page/*.jsx`
 ```
-### [Demonstration]()
+### [Demonstration](https://drive.google.com/file/d/1JCy6-_8hR3HNEasyAKJdI2RxL7n1JWax/view?usp=sharing)
 
